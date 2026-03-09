@@ -465,7 +465,7 @@ export default function CalmZone() {
   }
 
   function goToHome() {
-    window.location.href = "https://happyverse-calmzone.vercel.app/dashboard";
+    window.location.href = "https://happyverse-calmzone.vercel.app";
     console.log("Navigating to home page");
   }
 
