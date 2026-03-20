@@ -213,7 +213,7 @@ Mini Games   Happy Bot     Calm Zone     Calm Journal
 |------|------|
 | AI Chatbot | Ishani Jindal |
 | Mini Games | Aditi |
-| Calm Zone | Mehar |
+| Calm Zone | Mehar Bhanwra|
 | Mood Tracker | Chirag |
 | Integration, UI, Authentication, Dashboard | Pratham Ranjan |
 
