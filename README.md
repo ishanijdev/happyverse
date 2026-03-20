@@ -211,7 +211,7 @@ Mini Games   Happy Bot     Calm Zone     Calm Journal
 
 | Module | Contributor |
 |------|------|
-| AI Chatbot | Ishani |
+| AI Chatbot | Ishani Jindal |
 | Mini Games | Aditi |
 | Calm Zone | Mehar |
 | Mood Tracker | Chirag |
