@@ -3,7 +3,7 @@
 🎓 **Course** – Happiness & Well-being (Academic Project)  
 👥 **Team Name** – CODE2AIM  
 💡 **Project Theme** – Technology for Emotional Awareness & Mental Wellness  
-📩 **Contact Email** – aditimehta307@gmail.com  
+📩 **Contact Email** – prathamranjan10@gmail.com  
 
 ---
 
