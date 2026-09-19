@@ -32,7 +32,7 @@ A conversational AI companion that provides emotional support through natural in
 - Lightweight and responsive UI  
 
 ### Tech
-- Groq API (LLM inference)  
+- Groq API - MODEL: "openai/gpt-oss-20b"(LLM inference)  
 - HTML, CSS, JavaScript  
 
 🔗 https://happy-verse-happy-bot.netlify.app/  
