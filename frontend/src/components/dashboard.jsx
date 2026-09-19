@@ -49,8 +49,6 @@ export default function Dashboard() {
       setIsLoading(true);
       // Brief delay to allow the "Traveling through portal" animation to feel real
       setTimeout(() => navigate(card.link), 800);
-    } else {
-      window.open(card.link, "_blank", "noopener,noreferrer");
     }
   };
 
@@ -72,17 +70,31 @@ export default function Dashboard() {
         <div className="content-center">
           <h2 className="dashboard-subtitle">Choose your experience</h2>
           <div className="card-grid">
-            {cards.map((card, index) => (
-              <div 
-                key={index} 
-                className="dashboard-card" 
-                onClick={() => handleNavigation(card)}
-                style={{ animationDelay: `${index * 0.15}s` }}
-              >
-                <h2>{card.title}</h2>
-                <p>{card.desc}</p>
-              </div>
-            ))}
+            {cards.map((card, index) =>
+              card.internal ? (
+                <div
+                  key={index}
+                  className="dashboard-card"
+                  onClick={() => handleNavigation(card)}
+                  style={{ animationDelay: `${index * 0.15}s` }}
+                >
+                  <h2>{card.title}</h2>
+                  <p>{card.desc}</p>
+                </div>
+              ) : (
+                <a
+                  key={index}
+                  className="dashboard-card"
+                  href={card.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ animationDelay: `${index * 0.15}s` }}
+                >
+                  <h2>{card.title}</h2>
+                  <p>{card.desc}</p>
+                </a>
+              )
+            )}
           </div>
         </div>
       </main>
